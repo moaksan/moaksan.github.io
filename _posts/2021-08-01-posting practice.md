@@ -2,7 +2,7 @@
 title:  "깃허브 블로그 포스팅 연습"
 excerpt: "vscode로 작성 후 포스팅"
 
-categor:
+categories:
   - Blog
 tags:
   - [Blog, jekyll, Github, Git]
