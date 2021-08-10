@@ -1,3 +1,19 @@
+---
+title:  "깃허브 블로그 포스팅 연습"
+excerpt: "vscode로 작성 후 포스팅"
+
+categories:
+  - Blog
+tags:
+  - [Blog, jekyll, Github, Git]
+
+toc: true
+toc_sticky: true
+ 
+date: 2020-05-25
+last_modified_at: 2020-05-25
+---
+
 이것은 제목이다.
 ================
 
