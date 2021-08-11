@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "MOAKSAN"
+  name             : "모악산"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "예비 개발자"
   location         : "Somewhere"
   email            :
   links:
