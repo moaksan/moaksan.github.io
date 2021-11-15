@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "개발 공부 블로그"
+title                    : "모악산의 개발 공부 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "모악산자락에"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "모악산"
+  name             : "모악산자락에"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "예비 개발자"
   location         : "Somewhere"
