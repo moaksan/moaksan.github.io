@@ -12,6 +12,7 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        
         <span class="nav__sub-title">C/C++/C#</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -30,6 +31,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            
         <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
@@ -40,11 +42,30 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Programmers" %}
+                        <li><a href="/categories/Programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
+        <span class="nav__sub-title">HTML/JS/CSS</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "HTML" %}
+                        <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
+        <span class="nav__sub-title">etc</span>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
                         <li><a href="/categories/Blog" class="">블로그 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+            
       </li>
   </ul>
 </nav>
