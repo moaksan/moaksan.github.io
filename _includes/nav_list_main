@@ -48,7 +48,7 @@
                 {% endfor %}
             </ul>
             
-        <span class="nav__sub-title">HTML/JS/CSS</span>
+        <span class="nav__sub-title">WEB</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HTML" %}
